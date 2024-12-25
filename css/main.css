@@ -1,0 +1,188 @@
+* {
+   box-sizing: border-box;
+   font-family: 'Roboto' sans-serif;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header Content */
+header {
+   background-color: #5f27cd;
+   border-bottom: 16px solid #341f97;
+   color: #bbb7b7;
+   display: flex;
+   font-style: italic;
+   justify-content: center;
+   padding: 16px 0;
+   text-transform: uppercase;
+}
+
+header h1 {
+   color: #cecec0;
+}
+
+header button {
+   background-color: #009432;
+   border: none;
+   color: #272525;
+   font-weight: bold;
+   height: 35px;
+   margin-left: 20px;
+   text-transform: uppercase;
+   width: 95px;
+}
+
+header button:hover {
+   cursor: pointer;
+   color: #ffffff;
+   text-decoration: underline;
+}
+/* End of Header Content */
+
+/* Form Content */
+form {
+   background-color: #c8d6e5;
+   display: none;
+   padding: 24px 0;
+   text-align: center;
+}
+
+form h2 {
+   color: #272525;
+   font-size: 30px;
+   margin-bottom: 16px;
+}
+
+form input::placeholder {
+   color: #272525;
+   font-weight: 600;
+}
+
+form input {
+   border: 1px solid #272525;
+}
+
+form input,
+form button {
+   padding: 10px;
+}
+
+form button {
+   background-color: #009432;
+   border: none;
+   color: #272525;
+   font-weight: bolder;
+   height: 36.5px;
+   text-transform: uppercase;
+}
+
+form button:hover {
+   cursor: pointer;
+   color: #f5f5dc;
+   text-decoration: underline;
+}
+
+#cancelButton {
+   background-color: #a52a2a;
+   color: #bbb7b7;
+}
+
+#cancelButton:hover {
+   cursor: pointer;
+   color: #f5f5dc;
+   text-decoration: underline;
+}
+/* End of Form Content */
+
+/* Image List */
+ul {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+ul li {
+   list-style: none;
+   max-height: 280px;
+   max-width: 25%;
+   position: relative;
+   overflow-y: hidden;
+}
+
+ul li img {
+   height: 280px;
+   width: 100%;
+}
+
+.image-link {
+   background-color: rgba(0, 0, 0, 0.7);
+   bottom: 0;
+   left: 0;
+   opacity: 0;
+   padding: 16px;
+   position: absolute;
+   transition: all ease 0.5s;
+   width: 100%;
+}
+
+.image-link a {
+   color: #c8d6e5;
+   font-size: 18px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+ul li:hover .image-link {
+   opacity: 1;
+}
+/* End of Image List */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
